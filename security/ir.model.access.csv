@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_final/_final/,final/.final/,model_final/_final/,base.group_user,1,1,1,1
+libro_manager,libro manager,model_final_libro,base.group_user,1,1,1,1
+autor_manager,autor manager,model_final_autor,base.group_user,1,1,1,1
+editorial_manager,editorial manager,model_final_editorial,base.group_user,1,1,1,1

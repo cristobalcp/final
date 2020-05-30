@@ -1,30 +1,58 @@
 <odoo>
-    <data>
-<!--
-          <record id="object0" model="final/.final/">
-            <field name="name">Object 0</field>
-            <field name="value">0</field>
-          </record>
+  <data>
+   <!-- AUTORES -->
+    <record model="final.autor" id="autor01">
+      <field name="name">Cristobal Cenalmor</field>
+      <field name="nationality">Francia</field>
+      <field name="year">1970</field>
+      <field name="sex">Hombre</field>
 
-          <record id="object1" model="final/.final/">
-            <field name="name">Object 1</field>
-            <field name="value">10</field>
-          </record>
+    </record>
+    <record model="final.autor" id="autor02">
+      <field name="name">Jesus Perez</field>
+      <field name="nationality">Italia</field>
+      <field name="year">1988</field>
+      <field name="sex">Hombre</field>
 
-          <record id="object2" model="final/.final/">
-            <field name="name">Object 2</field>
-            <field name="value">20</field>
-          </record>
+    </record> 
 
-          <record id="object3" model="final/.final/">
-            <field name="name">Object 3</field>
-            <field name="value">30</field>
-          </record>
-
-          <record id="object4" model="final/.final/">
-            <field name="name">Object 4</field>
-            <field name="value">40</field>
-          </record>
--->
-    </data>
+    <!-- EDITORIALES -->
+    <record model="final.editorial" id="editorial01">
+      <field name="name">Planeta</field>
+      <field name="address">Sol 224 Bajo A</field>
+      <field name="email">planeta@email.com</field>
+      <field name="phone">+34 981000000</field>
+    </record>
+    <record model="final.editorial" id="editorial02">
+      <field name="name">Pluton</field>
+      <field name="address">Sol 224 Bajo B</field>
+      <field name="email">pluton@email.com</field>
+      <field name="phone">+34 981000001</field>
+    </record>  
+    <!-- LIBROS -->
+    <record model="final.libro" id="libro1">
+      <field name="name">La Biblia</field>
+      <field name="datetime">1920-08-11 19:00:00</field>
+      <field name="pages">500</field>
+      <field name="price">11.2</field>
+      <field name="sinopsis">La vida de el unico y verdadero Dios</field>
+      <field name="isbn">ISBN-1233</field>
+    </record>
+    <record model="final.libro" id="libro2">
+      <field name="name">El Coran</field>
+      <field name="datetime">1925-08-21 17:00:00</field>
+      <field name="pages">570</field>
+      <field name="price">13.2</field>
+      <field name="sinopsis">La vida de el unico y verdadero Dios</field>
+      <field name="isbn">ISBN-1232</field>
+    </record>
+    <record model="final.libro" id="libro3">
+      <field name="name">La Tora</field>
+      <field name="datetime">1975-08-16 11:00:00</field>
+      <field name="pages">350</field>
+      <field name="price">10.5</field>
+      <field name="sinopsis">La vida de el unico y verdadero Dios</field>
+      <field name="isbn">ISBN-1231</field>
+    </record> 
+  </data>
 </odoo>
