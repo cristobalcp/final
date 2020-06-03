@@ -28,7 +28,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/final.xml',
-        #'views/reports.xml',
+        'views/reports.xml',
     ],
     'application':'True',
     # only loaded in demonstration mode

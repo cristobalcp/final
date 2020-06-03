@@ -37,6 +37,7 @@
       <field name="price">11.2</field>
       <field name="sinopsis">La vida de el unico y verdadero Dios</field>
       <field name="isbn">ISBN-1233</field>
+
     </record>
     <record model="final.libro" id="libro2">
       <field name="name">El Coran</field>

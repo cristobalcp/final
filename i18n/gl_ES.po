@@ -1,0 +1,219 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* final
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-03 07:10+0000\n"
+"PO-Revision-Date: 2020-06-03 09:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: gl_ES\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: final
+#: model:ir.actions.act_window,name:final.autor_list_action
+#: model:ir.model.fields,field_description:final.field_final_libro__autor_id
+msgid "Autor"
+msgstr "Autor"
+
+#. module: final
+#: model_terms:ir.ui.view,arch_db:final.autor_tree_view
+msgid "Autor Tree"
+msgstr "Autor Tree"
+
+#. module: final
+#: model:ir.ui.menu,name:final.autor_menu
+msgid "Autores"
+msgstr "Autores"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__year
+msgid "Año"
+msgstr "Ano"
+
+#. module: final
+#: model_terms:ir.actions.act_window,help:final.libro_list_action
+msgid "Create the first course"
+msgstr "Crear o primeiro curso"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__create_uid
+#: model:ir.model.fields,field_description:final.field_final_editorial__create_uid
+#: model:ir.model.fields,field_description:final.field_final_libro__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__create_date
+#: model:ir.model.fields,field_description:final.field_final_editorial__create_date
+#: model:ir.model.fields,field_description:final.field_final_libro__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: final
+#: model_terms:ir.ui.view,arch_db:final.libro_form_view
+msgid "Datos"
+msgstr "Datos"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_libro__datetime
+msgid "Dia Lanzamiento"
+msgstr "Dia Lanzamento"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_editorial__address
+msgid "Direccion"
+msgstr "Direccion"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__display_name
+#: model:ir.model.fields,field_description:final.field_final_editorial__display_name
+#: model:ir.model.fields,field_description:final.field_final_libro__display_name
+msgid "Display Name"
+msgstr "Nome"
+
+#. module: final
+#: model:ir.actions.act_window,name:final.editorial_list_action
+#: model:ir.model.fields,field_description:final.field_final_libro__editorial_id
+msgid "Editorial"
+msgstr "Editorial"
+
+#. module: final
+#: model:ir.ui.menu,name:final.editorial_menu
+msgid "Editoriales"
+msgstr "Editoriais"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_editorial__email
+msgid "Email"
+msgstr "Email"
+
+#. module: final
+#: model:ir.ui.menu,name:final.final_menu
+#: model:ir.ui.menu,name:final.main_final_menu
+msgid "Final"
+msgstr "Final"
+
+#. module: final
+#: model:ir.model,name:final.model_final_autor
+msgid "Final Autor"
+msgstr "Final Autor"
+
+#. module: final
+#: model:ir.model,name:final.model_final_editorial
+msgid "Final Editorial"
+msgstr "Final Editorial"
+
+#. module: final
+#: model:ir.model,name:final.model_final_libro
+msgid "Final Libro"
+msgstr "Final Libro"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__id
+#: model:ir.model.fields,field_description:final.field_final_editorial__id
+#: model:ir.model.fields,field_description:final.field_final_libro__id
+msgid "ID"
+msgstr "ID"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_libro__isbn
+msgid "Isbn"
+msgstr "Isbn"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor____last_update
+#: model:ir.model.fields,field_description:final.field_final_editorial____last_update
+#: model:ir.model.fields,field_description:final.field_final_libro____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__write_uid
+#: model:ir.model.fields,field_description:final.field_final_editorial__write_uid
+#: model:ir.model.fields,field_description:final.field_final_libro__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__write_date
+#: model:ir.model.fields,field_description:final.field_final_editorial__write_date
+#: model:ir.model.fields,field_description:final.field_final_libro__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: final
+#: model_terms:ir.ui.view,arch_db:final.libro_form_view
+msgid "Libro Form"
+msgstr "Libro Form"
+
+#. module: final
+#: model:ir.actions.act_window,name:final.libro_list_action
+#: model:ir.model.fields,field_description:final.field_final_autor__libro_id
+#: model:ir.ui.menu,name:final.libro_menu
+msgid "Libros"
+msgstr "Libros"
+
+#. module: final
+#: model_terms:ir.ui.view,arch_db:final.report_autor_view
+msgid "Libros:"
+msgstr "Libros:"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__nationality
+msgid "Nacionalidad"
+msgstr "Nacionalidade"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__name
+#: model:ir.model.fields,field_description:final.field_final_editorial__name
+msgid "Nombre"
+msgstr "Nome"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_libro__pages
+msgid "Paginas"
+msgstr "Páxinas"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_libro__price
+msgid "Precio (€)"
+msgstr "Prezo (€)"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_autor__sex
+msgid "Sexo"
+msgstr "Sexo"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_libro__sinopsis
+#: model_terms:ir.ui.view,arch_db:final.libro_form_view
+msgid "Sinopsis"
+msgstr "Sinopsis"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_editorial__phone
+msgid "Telefono"
+msgstr "Teléfono"
+
+#. module: final
+#: model:ir.model.fields,field_description:final.field_final_libro__name
+msgid "Titulo"
+msgstr "Título"
+
+#. module: final
+#: model_terms:ir.ui.view,arch_db:final.report_autor_view
+msgid "Total de paginas escritas:"
+msgstr "Total de páxinas escritas:"
+
+#. module: final
+#: model:ir.actions.report,name:final.report_autor
+msgid "autor Report"
+msgstr "autor Report"
